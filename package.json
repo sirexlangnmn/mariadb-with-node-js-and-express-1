@@ -1,0 +1,20 @@
+{
+  "name": "mariadb-with-node-js-and-express-1",
+  "version": "1.0.0",
+  "description": "How to connect to MySQL/MariaDB from Node",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
